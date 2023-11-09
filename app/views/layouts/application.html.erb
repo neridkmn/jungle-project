@@ -11,6 +11,7 @@
 </head>
 <body>
 
+  <%= render 'layouts/top_bar', user: :current_user %>
   <%= render 'layouts/top_nav' %>
 
   <main class="container">
@@ -27,5 +28,6 @@
     </ul>
     <p class="text-center text-muted">© 2021 Jungle, Inc</p>
   </footer>
+
 </body>
 </html>
